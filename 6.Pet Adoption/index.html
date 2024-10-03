@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Adoption Website</title>
+  </head>
+  <body>
+    <h1>Pet Adoption Application</h1>
+    <img src="images\Dog.jpg" alt="Dog image" width="300" />
+    <main>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="Full Name">Full Name:</label>
+          <input type="text" name="Full Name" id="Full Name" required />
+          <br /><br />
+          <label for="Email">Email:</label>
+          <input type="email" name="Email" id="Email" required />
+          <br /><br />
+          <label for="Phone">Phone:</label>
+          <input type="number" name="Phone" id="Phone" required />
+          <br /><br />
+        </fieldset>
+        <fieldset>
+          <legend>Pet Preference</legend>
+          <label for="pet">Type of Pet:</label>
+          <select name="Pet" id="pet" required>
+            <option value="">Select one</option>
+            <option value="">Dog</option>
+            <option value="">Cat</option>
+            <option value="">Bird</option>
+            <option value="">other</option>
+          </select>
+          <br /><br />
+          <label for="age">Age Range:</label> <br />
+          <input type="radio" name="age" id="age" required /> Young <br />
+          <input type="radio" name="age" id="age" /> Adult <br />
+          <input type="radio" name="age" id="age" /> Senior <br />
+          <br />
+          <label for="adopt">Why do you want to adopt a pet?</label> <br />
+          <textarea
+            name="adopt"
+            id="adopt"
+            rows="4"
+            cols="50"
+            required
+          ></textarea>
+        </fieldset>
+        <br />
+        <input type="submit" value="Submit Application" />
+      </form>
+      <div>
+        <h2>Watch Cute Puppy Videos</h2>
+      </div>
+      <div>
+        <video
+          src="Media\3191251-uhd_4096_2160_25fps.mp4"
+          controls
+          width="320"
+          height="240"
+        ></video>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
