@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NavBar with Multilevel Dropdown</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li class="has-dropdown">
+            <a href="#">Products</a>
+            <ul class="dropdown">
+              <li><a href="#">Product 1</a></li>
+              <li><a href="#">Product 2</a></li>
+              <li><a href="#">Product 3</a></li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="#">Services</a>
+            <ul class="dropdown">
+              <li><a href="#">Consulting</a></li>
+              <li><a href="#">Design</a></li>
+              <li class="has-dropdown">
+                <a href="#">Development</a>
+                <ul class="dropdown">
+                    <li><a href="#">Web</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">Desktop</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
